@@ -18,9 +18,9 @@
                 required: false,
                 default: 'Esta e a descricao padrao.',
                 validator: function(value){
-                    if(20 < value.length && value.length < 50){
+                    if(20<value.length && value.length<50){
                         return true;
-                    }else{
+                    }else {
                         return false;
                     }
                 }
